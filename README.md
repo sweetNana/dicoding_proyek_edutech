@@ -50,7 +50,7 @@ Pasang semua dependensi Python yang diperlukan:
 
 ### Menajalankan Prediksi Machine Learning
 1. Run secara lokal
-    Run file main.py pada environment yang sudah dijalankan sebelumnya. 
+    - Run file main.py pada environment yang sudah dijalankan sebelumnya. 
     ```streamlit run main.py```
 
 2. Akses melalui Streamlit Cloud
