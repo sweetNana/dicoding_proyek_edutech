@@ -48,9 +48,18 @@ Pasang semua dependensi Python yang diperlukan:
 1. Pastikan semua dependensi, packages, dan library yang dibutuhkan telah terinstal. Daftar lengkap dependensi dapat dilihat pada file requirements.txt.
 2. Jalankan file notebook_edutech.ipynb untuk melakukan analisis data, menampilkan visualisasi, serta memperoleh temuan dan insight terkait attrition.
 
-### Menajalankan Prediksi
-Run file prediction.py pada environment yang sudah dijalankan sebelumnya. 
-```python main.py```
+### Menajalankan Prediksi Machine Learning
+1. Run secara lokal
+    Run file main.py pada environment yang sudah dijalankan sebelumnya. 
+    ```streamlit run main.py```
+
+2. Akses melalui Streamlit Cloud
+    - Kamu bisa menjalankan machine learning yang sudah di-deploy ke streamlit cloud melalui link berikut:
+    ```https://dicodingproyekedutech-nahdhiyah.streamlit.app/```
+    - Masukan file input_example.csv yang ada pada folder data/
+    - Klik button 'Mulai Prediksi'
+    - Table prediksi akan keluar dengan kolom 'Prediksi Status' berapa dipaling kanan
+    - Kamu bisa mendowload hasil prediksi dengan klik button 'Unduh Hasil Prediksi (CSV)'
 
 ### Setup Metabase (Visualisasi Dashboard)
 Metabase akan digunakan untuk membuat visualisasi interaktif dari hasil analisis.       
